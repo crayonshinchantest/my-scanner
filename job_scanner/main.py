@@ -10,14 +10,14 @@ import sys
 
 import yaml
 
-from .companies import company_tier
+from .companies import company_tier, target_priority
 from .experience import required_min_years, within_cap
 from .geo import is_india
 from .matcher import score_job
 from .report import build_excel, send_email
 from .resumes import recommend
 from .sources import Job, adzuna, linkedin, naukri
-from .store import merge_and_save
+from .store import load_jobs, mark_emailed, merge_and_save
 
 CONFIG_PATH = os.environ.get("JOB_SCANNER_CONFIG", "config.yaml")
 
@@ -84,28 +84,41 @@ def main() -> int:
             dropped_score += 1
             continue
         job.tier = company_tier(job.company)
+        job.target_priority = target_priority(job.company)
         job.resume, job.resume_path = recommend(job.title, job.description, job.company)
         kept.append(job)
 
-    # Premium companies first, then by match score.
+    # Your target companies (COS.xlsx) first by priority, then premium
+    # companies, then by match score.
+    target_rank = {"High": 0, "Medium": 1, "Low": 2, "": 3}
     tier_rank = {"Premium": 0, "Established": 1, "Other": 2}
-    kept.sort(key=lambda j: (tier_rank.get(j.tier, 2), -j.score))
+    kept.sort(key=lambda j: (target_rank.get(j.target_priority, 3),
+                              tier_rank.get(j.tier, 2), -j.score))
     jobs = kept[: cfg["max_results"]]
     print(f"Kept {len(jobs)} jobs (dropped {dropped_geo} non-India, "
           f"{dropped_exp} over {cap} yrs exp, {dropped_score} low-match).")
 
-    # Persist the FULL set to the store the dashboard reads (committed by Action).
+    # Snapshot which URLs were already emailed BEFORE this run's merge, so we
+    # only ever email a listing once across runs (3 PM / 6 AM, twice daily).
     store_path = os.environ.get("JOBS_STORE", "data/jobs.json")
+    previously_emailed = {u for u, e in load_jobs(store_path).items() if e.get("emailed")}
+
+    # Persist the FULL set to the store the dashboard reads (committed by Action).
     total = merge_and_save(store_path, jobs)
     print(f"Updated {store_path} ({total} jobs in rolling {os.environ.get('JOBS_KEEP_DAYS','30')}-day window).")
 
-    # The EMAIL excludes senior roles (3+ yrs) — keep it early-career focused.
+    # The EMAIL excludes senior roles (3+ yrs) AND anything already sent in a
+    # previous run — keep it early-career-focused and non-repeating.
     email_cap = int(cfg.get("email_max_experience_years", 2))
-    email_jobs = [j for j in jobs if j.exp_years is None or j.exp_years <= email_cap]
+    under_cap = [j for j in jobs if j.exp_years is None or j.exp_years <= email_cap]
+    email_jobs = [j for j in under_cap if j.url not in previously_emailed]
+    print(f"{len(email_jobs)} new/unsent listings for this email "
+          f"({len(under_cap) - len(email_jobs)} already emailed in a prior run, "
+          f"{len(jobs) - len(under_cap)} over {email_cap} yrs exp for email).")
 
     out_dir = os.environ.get("JOB_SCANNER_OUT", ".")
     os.makedirs(out_dir, exist_ok=True)
-    fname = f"Your_List_{dt.date.today():%Y-%m-%d}.xlsx"
+    fname = f"New_Listings_{dt.date.today():%Y-%m-%d}_{dt.datetime.now():%H%M}.xlsx"
     path = os.path.join(out_dir, fname)
     build_excel(email_jobs, path)
     print(f"Wrote {path} ({len(email_jobs)} jobs <= {email_cap} yrs for email).")
@@ -113,6 +126,9 @@ def main() -> int:
     email_cfg = cfg.get("email", {})
     if os.environ.get("SKIP_EMAIL") == "1":
         print("SKIP_EMAIL=1 set — not sending email.")
+        return 0
+    if not email_jobs:
+        print("No new/unsent listings this run — skipping email.")
         return 0
     try:
         send_email(
@@ -125,6 +141,10 @@ def main() -> int:
     except Exception as e:  # noqa: BLE001 - report and exit non-zero
         print(f"Email NOT sent: {e}", file=sys.stderr)
         return 1
+
+    # Only mark as emailed AFTER a successful send, so a failed send retries
+    # these same listings next run instead of silently dropping them.
+    mark_emailed(store_path, [j.url for j in email_jobs if j.url])
     return 0
 
 

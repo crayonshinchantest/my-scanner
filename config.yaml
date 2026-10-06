@@ -3,35 +3,52 @@
 # environment variables (see README) — never put passwords in this file.
 
 # Roles you want. Each becomes a separate search query on both sites.
+# Grouped by your own tiering (Tier 1 = closest match, Tier 3 = still worth
+# seeing) — all tiers are searched; TITLE_BOOST in profile.py scores Tier 1
+# titles highest.
 keywords:
-  - marketing
-  - brand marketing
-  - growth marketing
-  - marketing strategy
-  - strategy
-  - strategy and planning
-  - business strategy
-  - corporate strategy
+  # Tier 1
+  - associate consultant
+  - consulting analyst
+  - business analyst
+  - technology consultant
+  - technology business analyst
+  - digital transformation analyst
+  - transformation analyst
+  # Tier 2
+  - solutions consultant
+  - associate solutions consultant
+  - functional consultant
+  - implementation consultant
+  - product analyst
+  - business systems analyst
+  - process transformation analyst
+  # Tier 3
   - strategy analyst
-  - product marketing
-  - category manager
-  - business analyst strategy
-  - management consulting
+  - business strategy analyst
+  - ceo office analyst
+  - operations strategy analyst
+  - management trainee strategy
+  - pmo analyst
+  # Carried over — still your lane
   - chief of staff
   - founder's office
-  - ceo office
   - business associate
   - management trainee
+  - change management analyst
 
-# Locations to search — India only. Add/remove hubs as you like.
+# Locations to search — India only. Matches the India hubs of your target
+# companies (see job_scanner/companies.py TARGET list from COS.xlsx).
 locations:
   - India
   - Mumbai
   - Bengaluru
   - Delhi
+  - Gurgaon
+  - Noida
   - Pune
   - Hyderabad
-  - Gurgaon
+  - Chennai
 
 # Only keep jobs posted within this many hours.
 max_age_hours: 24
@@ -40,18 +57,18 @@ max_age_hours: 24
 # to filter across. The dashboard defaults to hiding 3+ yr roles; slide to change.
 max_experience_years: 5
 
-# The daily EMAIL excludes anything above this (you have ~1 yr — no 3+ roles).
+# The EMAIL excludes anything above this (you're an MBA 2026 grad — no 3+ roles).
 email_max_experience_years: 2
 
 # A job must score at least this (0-100) to make your list.
 min_match_score: 35
 
 # Cap the number of rows stored / emailed (best matches first).
-max_results: 100
+max_results: 150
 
 # ── Email ─────────────────────────────────────────────────────────────────
 email:
-  subject: "Your List"
+  subject: "New Roles — BA / Consulting / Digital Transformation"
   # 'to' and 'from' default to the GMAIL_ADDRESS env var if left blank.
   to: ""
   from: ""

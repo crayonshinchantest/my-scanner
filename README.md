@@ -1,19 +1,33 @@
-# Job Scanner — daily marketing & strategy job list
+# Job Scanner — twice-daily Business Analyst / Consulting / Digital Transformation job list
 
-Every day at 9 PM it scans **LinkedIn** and **Naukri** for jobs posted in the
-**last 24 hours**, scores each one against your resume (strategy + marketing),
-builds an Excel of the best matches with clickable apply links, and emails it to
-you with the subject **"Your List"**.
+Twice a day (~6 AM and ~3 PM IST) it scans **LinkedIn** (and **Adzuna**, if
+keyed) for jobs posted in the **last 24 hours**, scores each one against your
+resume set (Business Analyst / Consulting / Digital Transformation track),
+builds an Excel of the best matches with clickable apply links, and emails it
+to you. Each run only sends listings it hasn't sent you before — a URL once
+emailed is never repeated in a later run.
 
 ## How matching works
 
-It queries the **public** LinkedIn and Naukri job-search endpoints (no login,
-so your accounts are never touched or at risk) filtered to the last 24 hours,
-then scores every posting 0–100 by how much its title and description overlap
-with keywords pulled from your resume (see `job_scanner/profile.py`). Higher
-score = better fit; the email lists best matches first. It ranks fit — it can't
-literally guarantee you'll be selected. Tune the keywords and thresholds in
-`config.yaml` and `profile.py` anytime.
+It queries the **public** LinkedIn (and Adzuna) job-search endpoints (no
+login, so your accounts are never touched or at risk) filtered to the last 24
+hours, then scores every posting 0–100 by how much its title and description
+overlap with keywords pulled from your resume set (see
+`job_scanner/profile.py`). It also flags jobs at companies on your own
+researched shortlist (`job_scanner/companies.py` `_TARGET_*` sets, sourced
+from `COS.xlsx`) with a High/Medium/Low priority — those sort to the top of
+the list regardless of score. Higher score = better fit; the email lists best
+matches first. It ranks fit — it can't literally guarantee you'll be selected.
+Tune the keywords, roles, and thresholds in `config.yaml` and `profile.py`
+anytime.
+
+### Resume recommendation
+`job_scanner/resumes.py` picks which of your 7 tailored resumes (in the local,
+gitignored `resumes/` folder) best fits each job — e.g. the McKinsey-style
+resume for strategy/case-style roles, the SCG-style resume for digital
+transformation/ERP roles, the Glide Brands-style resume for founder's-office/
+CEO-office roles. The Excel's "Recommended resume" column names the file; you
+still attach it yourself when applying.
 
 ## Setup (3 steps)
 
@@ -27,14 +41,15 @@ password (2‑Step Verification must be on):
 - **GitHub Actions:** in your repo → Settings → Secrets and variables → Actions →
   add `GMAIL_ADDRESS` and `GMAIL_APP_PASSWORD`.
 
-### 3. Choose how it runs daily at 9 PM
+### 3. Choose how it runs twice daily (6 AM / 3 PM IST)
 
 **Option A — GitHub Actions (recommended, always-on, nothing to keep running).**
-The workflow `.github/workflows/daily.yml` already runs at 15:30 UTC = 21:00 IST.
-Just push this repo to GitHub and add the two secrets above. Run it once manually
-from the **Actions** tab → *Daily job list* → *Run workflow* to test.
+The workflow `.github/workflows/daily.yml` already runs at 00:30 UTC (~6 AM IST)
+and 09:30 UTC (~3 PM IST). Just push this repo to GitHub and add the two
+secrets above. Run it once manually from the **Actions** tab → *Daily job
+list* → *Run workflow* to test.
 
-**Option B — Your Mac (launchd).** Runs at 9 PM local time whenever the Mac is awake:
+**Option B — Your Mac (launchd).** Runs at 6 AM and 3 PM local time whenever the Mac is awake:
 ```bash
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 cp launchd/com.ajinkya.jobscanner.plist ~/Library/LaunchAgents/
@@ -81,7 +96,7 @@ choices) live from the repo via a token.
    APP_PASSWORD = "pick-a-password"     # you'll type this to open the app
    ```
 5. Deploy. Open the URL, enter your password — that's your private dashboard.
-   Bookmark it on your phone. It auto-updates each day after the 9 PM scan.
+   Bookmark it on your phone. It auto-updates after each scan.
 
 Run it locally instead (uses the local `data/` files, no token needed):
 ```bash
@@ -90,16 +105,19 @@ streamlit run app.py
 ```
 
 ## Files
-- `config.yaml` — search keywords, locations, thresholds, email subject.
+- `config.yaml` — search keywords (your Tier 1/2/3 roles), locations, thresholds, email subject.
 - `job_scanner/profile.py` — resume keywords used for scoring.
-- `job_scanner/sources/` — LinkedIn + Naukri fetchers.
+- `job_scanner/companies.py` — company tiers + your target-company priority list (from `COS.xlsx`).
+- `job_scanner/resumes.py` — the 7-resume catalog and which keywords pick each one.
+- `resumes/` — your actual resume PDFs (local only, gitignored — never pushed to the public repo).
+- `job_scanner/sources/` — LinkedIn + Adzuna fetchers.
 - `job_scanner/matcher.py` — the 0–100 scoring.
 - `job_scanner/report.py` — Excel builder + Gmail sender.
-- `.github/workflows/daily.yml` — the 9 PM schedule for GitHub Actions.
-- `launchd/…plist` — the 9 PM schedule for macOS.
+- `job_scanner/store.py` — writes `data/jobs.json` for the dashboard and tracks which URLs were already emailed (so nothing repeats).
+- `.github/workflows/daily.yml` — the twice-daily schedule for GitHub Actions.
+- `launchd/…plist` — the twice-daily schedule for macOS.
 - `app.py` — the Streamlit tracking dashboard.
 - `gh_api.py` — reads/writes the JSON data files in your repo (dashboard persistence).
-- `job_scanner/store.py` — writes `data/jobs.json` for the dashboard.
 - `data/jobs.json` — scanned jobs (written by the Action).
 - `data/applications.json` — your Applied status + resume used (written by the dashboard).
 

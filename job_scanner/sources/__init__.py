@@ -16,5 +16,6 @@ class Job:
     experience_req: str = ""  # e.g. "0-2 yrs" or "not stated"
     exp_years: object = None  # parsed minimum years required (int) or None
     tier: str = "Other"       # company tier: Premium | Established | Other
+    target_priority: str = ""  # '' | Low | Medium | High — on your COS.xlsx target-company list
     resume: str = ""          # recommended resume label
-    resume_path: str = ""     # path within "Resumes all/" to that resume
+    resume_path: str = ""     # path within the local "resumes/" folder to that resume

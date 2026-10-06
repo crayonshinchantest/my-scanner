@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- macOS local schedule: runs run.sh every day at 21:00 (9 PM) local time.
+<!-- macOS local schedule: runs run.sh every day at 6:00 AM and 3:00 PM local time.
      Install:
        cp launchd/com.ajinkya.jobscanner.plist ~/Library/LaunchAgents/
        launchctl load ~/Library/LaunchAgents/com.ajinkya.jobscanner.plist
@@ -18,10 +18,16 @@
     <key>WorkingDirectory</key>
     <string>/Users/ajinkya/Coding Projects/job-scanner</string>
     <key>StartCalendarInterval</key>
-    <dict>
-        <key>Hour</key><integer>19</integer>
-        <key>Minute</key><integer>0</integer>
-    </dict>
+    <array>
+        <dict>
+            <key>Hour</key><integer>6</integer>
+            <key>Minute</key><integer>0</integer>
+        </dict>
+        <dict>
+            <key>Hour</key><integer>15</integer>
+            <key>Minute</key><integer>0</integer>
+        </dict>
+    </array>
     <key>StandardOutPath</key>
     <string>/Users/ajinkya/Coding Projects/job-scanner/launchd.out.log</string>
     <key>StandardErrorPath</key>

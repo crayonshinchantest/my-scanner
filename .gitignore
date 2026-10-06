@@ -5,3 +5,4 @@ venv/
 *.xlsx
 .env
 .DS_Store
+resumes/

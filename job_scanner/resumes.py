@@ -1,85 +1,63 @@
 """Pick which of Ajinkya's tailored resumes best fits a given job.
 
-Each entry maps a resume file (inside your "Resumes all" folder) to the kind of
-role it was tailored for. For every job we score all resumes by how well the
-job's title/description/company matches their keywords, and recommend the best.
-General resumes win when no specialist resume clearly fits.
-
-Paths are relative to your local "Resumes all/" folder — the resumes stay on
-your machine; this just tells you which one to attach.
+Each entry maps a resume file (inside the local "resumes/" folder, gitignored
+— it never gets pushed to the public repo) to the kind of role it was
+tailored for. For every job we score all resumes by how well the job's
+title/description/company matches their keywords, and recommend the best.
+The general resume wins when no specialist resume clearly fits.
 """
 from __future__ import annotations
 
 # weight 1 = broad/general resume, weight 2 = specialist (wins when relevant)
 CATALOG = [
-    # ── Strategy family ────────────────────────────────────────────────
-    {"label": "Strategy (general)", "weight": 1,
-     "path": "Strategy/Ajinkya_Kolhe_Resume.pdf",
-     "kw": ["strategy", "strategic", "planning", "corporate strategy",
-            "business analyst", "chief of staff", "business strategy"]},
-    {"label": "Strategy — Aditya Birla (corporate/group strategy)", "weight": 2,
-     "path": "Strategy/Ajinkya_Kolhe_Resume_Strategy_Planning_AdityaBirla.pdf",
-     "kw": ["corporate strategy", "group strategy", "conglomerate", "m&a",
-            "chairman", "business head", "diversified", "strategic planning"]},
-    {"label": "Strategy — Consulting (Accenture)", "weight": 2,
-     "path": "Strategy/OLX/Ajinkya Kolhe IIM Visakhapatnam_Accenture .pdf",
-     "kw": ["consulting", "consultant", "advisory", "management consulting",
-            "transformation", "strategy&", "associate consultant"]},
-    {"label": "Strategy — Banking/BFSI (Kotak)", "weight": 2,
-     "path": "Strategy/KOTAK/Ajinkya_Kolhe_Kotak_GTS_APM.pdf",
-     "kw": ["bank", "banking", "bfsi", "financial services", "transaction banking",
-            "treasury", "wealth", "cash management", "credit", "nbfc", "fintech bank"]},
-    {"label": "Strategy — Internet/Marketplace (OLX)", "weight": 2,
-     "path": "Strategy/OLX/Ajinkya Kolhe IIM Visakhapatnam_OLX.docx",
-     "kw": ["marketplace", "classifieds", "consumer internet", "tech platform",
-            "internet", "aggregator", "platform strategy"]},
-    {"label": "Strategy — Consumer services (Tumbledry)", "weight": 2,
-     "path": "Strategy/Ajinkya_Kolhe_Tumbledry_ACM.pdf",
-     "kw": ["franchise", "consumer services", "expansion", "unit economics",
-            "retail operations", "store", "outlet", "network expansion"]},
+    {"label": "Business Analyst — general (IIM Visakhapatnam)", "weight": 1,
+     "path": "resumes/Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+     "kw": ["business analyst", "transformation analyst", "program coordination",
+            "process transformation", "stakeholder management",
+            "management reporting", "pmo", "decision analytics"]},
 
-    # ── Marketing & branding family ────────────────────────────────────
-    {"label": "Marketing (general)", "weight": 1,
-     "path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
-     "kw": ["marketing", "brand", "branding", "digital marketing", "campaign",
-            "communications", "advertising", "media"]},
-    {"label": "Marketing — FMCG/CPG (P&G)", "weight": 2,
-     "path": "Marketing and branding/P&G/Ajinkya Kolhe IIM Visakhapatnam.pdf",
-     "kw": ["fmcg", "cpg", "consumer goods", "personal care", "home care",
-            "foods", "beverages", "nielsen", "brand manager", "abm", "assistant brand"]},
-    {"label": "Marketing — E-commerce category (Myntra)", "weight": 2,
-     "path": "Marketing and branding/Myntra category/Ajinkya Kolhe IIM Visakhapatnam.pdf",
-     "kw": ["category", "category manager", "e-commerce", "ecommerce", "merchandising",
-            "buying", "private label", "fashion", "catalogue", "marketplace seller"]},
-    {"label": "Marketing — Growth/Fintech (Upstox)", "weight": 2,
-     "path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
-     "kw": ["growth", "performance marketing", "user acquisition", "fintech",
-            "funnel", "retention", "cac", "ltv", "d2c", "app marketing", "seo", "sem"]},
-    {"label": "Marketing — Business development (Walmart)", "weight": 2,
-     "path": "Marketing and branding/Walmart business development/Ajinkya_Kolhe_IIM_Visakhapatnam.pdf",
-     "kw": ["business development", "sourcing", "supplier", "procurement",
-            "wholesale", "partnerships", "vendor", "retail buying", "b2b sales"]},
+    {"label": "Business Analyst — Change & Transformation (IBM style)", "weight": 2,
+     "path": "resumes/IBM_changetrans_Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+     "kw": ["technology business analyst", "business systems analyst",
+            "change management", "digital solution design", "business analysis",
+            "ibm", "accenture", "capgemini", "publicis sapient", "thoughtworks",
+            "infosys consulting", "cognizant consulting", "requirements gathering"]},
 
-    # ── Other specialist tracks ────────────────────────────────────────
-    {"label": "Finance / FP&A", "weight": 1,
-     "path": "Finance/Ajinkya Kolhe Resume.pdf",
-     "kw": ["finance", "fp&a", "financial analyst", "investment", "equity research",
-            "valuation", "budgeting", "controller", "accounting", "financial modeling"]},
-    {"label": "Consumer Insights / Research", "weight": 2,
-     "path": "Consumer Insights/Ajinkya_Kolhe_IIM Visakhapatnam.pdf",
-     "kw": ["consumer insights", "market research", "insights", "research executive",
-            "survey", "brand health", "consumer research", "mrx"]},
-    {"label": "Product Management", "weight": 2,
-     "path": "Prodman/Ajinkya Kolhe IIM Visakhapatnam.docx",
-     "kw": ["product manager", "product management", "product owner", "roadmap",
-            "user stories", "associate product", "apm", "product analyst"]},
-    {"label": "Data / Analytics", "weight": 2,
-     "path": "It and analytics /Ajinkya Kolhe IIM Visakhapatnam.docx",
-     "kw": ["data analyst", "analytics", "business intelligence", "tableau",
-            "power bi", "sql", "reporting analyst", "data analytics"]},
+    {"label": "Business Transformation Manager (EY style)", "weight": 2,
+     "path": "resumes/Ajinkya_Kolhe_EY_Business_Transformation_Manager.pdf",
+     "kw": ["business transformation manager", "transformation manager",
+            "associate consultant", "consulting analyst", "business case",
+            "feasibility", "process diagnostics", "deloitte", "pwc", "kpmg",
+            "ey", "ernst", "parthenon", "strategy&", "big 4", "member firm"]},
+
+    {"label": "Digital Transformation Officer (SCG style)", "weight": 2,
+     "path": "resumes/Ajinkya_Kolhe_SCG_Digital_Transformation_Officer.pdf",
+     "kw": ["digital transformation analyst", "digital transformation officer",
+            "process transformation analyst", "erp", "sap", "digitalization",
+            "process digitalization", "siemens", "schneider", "honeywell",
+            "johnson controls", "software ag", "aris", "process mining"]},
+
+    {"label": "Founder's Office / CEO Office (Glide Brands style)", "weight": 2,
+     "path": "resumes/Ajinkya_Kolhe_Glide_Brands_Founders_Office.pdf",
+     "kw": ["founder's office", "founders office", "ceo office", "chief of staff",
+            "product analyst", "internal tools", "llm", "automation anywhere",
+            "uipath", "celonis", "workflow automation", "startup"]},
+
+    {"label": "Solutions / Data Analyst (McKinsey AI Solutions style)", "weight": 2,
+     "path": "resumes/Ajinkya_Kolhe_McKinsey_AI_Solutions_Analyst.pdf",
+     "kw": ["solutions consultant", "business systems analyst", "product analyst",
+            "ai solutions", "analytics automation", "dashboards", "benchmarking",
+            "zs associates", "gartner", "data analyst", "financial services"]},
+
+    {"label": "Strategy / Associate Consultant (McKinsey Associate style)", "weight": 2,
+     "path": "resumes/Ajinkya_Kolhe_McKinsey_Associate_Intern.pdf",
+     "kw": ["strategy analyst", "business strategy analyst", "operations strategy",
+            "associate consultant", "consulting analyst", "market assessment",
+            "market sizing", "case study", "mckinsey", "bain", "boston consulting",
+            "bcg", "kearney", "oliver wyman", "roland berger", "primary research"]},
 ]
 
-_FALLBACK = CATALOG[0]  # Strategy (general)
+_FALLBACK = CATALOG[0]  # Business Analyst — general
 
 
 def recommend(title: str, description: str, company: str = "") -> tuple[str, str]:

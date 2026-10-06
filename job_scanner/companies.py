@@ -63,3 +63,51 @@ def company_tier(name: str) -> str:
     if _ESTAB_RE.search(n):
         return "Established"
     return "Other"
+
+
+# ── Your own target-company research (from COS.xlsx) ──────────────────────
+# Companies you specifically researched for the consulting / digital
+# transformation / built-environment track (UK-Europe-Canada mobility angle),
+# with the priority you assigned them. A job at one of these sorts above
+# every other match, Priority then overriding score. Independent of the
+# Premium/Established/Other tier above — a company can be both.
+_TARGET_HIGH = {
+    "accenture", "ibm", "capgemini", "publicis sapient", "thoughtworks",
+    "mckinsey", "bain", "wsp", "stantec", "arcadis", "turner & townsend",
+    "turner and townsend", "jll", "cbre", "deloitte", "ey", "ey consulting",
+    "ey-parthenon", "ey parthenon", "sap", "signavio", "celonis", "siemens advanta",
+    "siemens", "schneider", "honeywell", "johnson controls", "software ag",
+    "autodesk", "bentley systems", "bentley", "epam",
+}
+_TARGET_MEDIUM = {
+    "infosys consulting", "cognizant consulting", "zs associates", "gartner",
+    "boston consulting group", "bcg", "kearney", "oliver wyman", "roland berger",
+    "arthur d. little", "arthur d little", "mott macdonald", "arup", "mace",
+    "aecom", "jacobs", "cushman & wakefield", "cushman and wakefield",
+    "pwc", "strategy&", "kpmg", "servicenow", "salesforce", "microsoft",
+    "uipath", "trimble", "procore", "slalom", "globant", "bearingpoint",
+    "sia partners", "valtech", "fti consulting",
+}
+_TARGET_LOW = {
+    "alvarez & marsal", "alvarez and marsal", "buro happold", "knight frank",
+    "automation anywhere", "devoteam", "netcompany", "zinnov", "everest group",
+    "avasant", "alixpartners",
+}
+
+_TARGET_PRIORITY = {name: "High" for name in _TARGET_HIGH}
+_TARGET_PRIORITY.update({name: "Medium" for name in _TARGET_MEDIUM})
+_TARGET_PRIORITY.update({name: "Low" for name in _TARGET_LOW})
+
+_TARGET_RE = re.compile(
+    r"\b(?:" + "|".join(re.escape(t) for t in sorted(_TARGET_PRIORITY, key=len, reverse=True)) + r")\b"
+)
+
+
+def target_priority(name: str) -> str:
+    """Priority ('High'/'Medium'/'Low') if this company is on your target
+    list, else '' (not on the list)."""
+    n = _norm(name)
+    m = _TARGET_RE.search(n)
+    if not m:
+        return ""
+    return _TARGET_PRIORITY.get(m.group(0), "")
