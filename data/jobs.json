@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T05:11:36",
+  "updated": "2026-10-24T13:47:59",
   "jobs": [
     {
       "url": "https://in.linkedin.com/jobs/view/in-associate-business-analyst-capital-markets-%E2%80%93-financial-services-advisory-gurgaon-at-pwc-india-4475841483",
@@ -4766,6 +4766,32 @@
       "emailed": true
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/business-analyst-technology-senior-associate-bangalore-at-pwc-acceleration-center-india-4454117419",
+      "title": "Business Analyst  -Technology -Senior Associate-Bangalore",
+      "company": "PwC Acceleration Center India",
+      "location": "Bengaluru East, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 100,
+      "experience_req": "5+ yrs",
+      "exp_years": 5,
+      "tier": "Premium",
+      "target_priority": "Medium",
+      "resume": "Business Transformation Manager (EY style)",
+      "resume_path": "resumes/Ajinkya_Kolhe_EY_Business_Transformation_Manager.pdf",
+      "matched": [
+        "business analyst",
+        "consulting",
+        "business transformation",
+        "transformation",
+        "solution design",
+        "implementation",
+        "requirements gathering",
+        "stakeholder management"
+      ],
+      "first_seen": "2026-10-24"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/business-transformation-specialist-at-accenture-in-india-4473532590",
       "title": "Business Transformation Specialist",
       "company": "Accenture in India",
@@ -6251,6 +6277,33 @@
       "first_seen": "2026-10-24"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/senior-business-analyst-ops-risk-at-surya-software-systems-private-limited-4483190126",
+      "title": "Senior Business Analyst - Ops Risk",
+      "company": "Surya Software Systems Private Limited",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 95,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Solutions / Data Analyst (McKinsey AI Solutions style)",
+      "resume_path": "resumes/Ajinkya_Kolhe_McKinsey_AI_Solutions_Analyst.pdf",
+      "matched": [
+        "business analyst",
+        "transformation",
+        "solution design",
+        "implementation",
+        "requirements gathering",
+        "business requirements",
+        "sop",
+        "dashboard"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/bangalore-career-fair-21-22-november-%C2%A0sc-business-process-advisor-at-exxonmobil-india-careers-4476324894",
       "title": "Bangalore Career Fair 21 & 22 November - SC Business Process Advisor",
       "company": "ExxonMobil India Careers",
@@ -6908,6 +6961,32 @@
         "business requirements",
         "stakeholder management",
         "erp"
+      ],
+      "first_seen": "2026-10-24"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/pmo-analyst-at-tenneco-4473001717",
+      "title": "PMO Analyst",
+      "company": "Tenneco",
+      "location": "Gurgaon, Haryana, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 93,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — general (IIM Visakhapatnam)",
+      "resume_path": "resumes/Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business requirements",
+        "stakeholder management",
+        "sop",
+        "program management",
+        "pmo",
+        "dashboard",
+        "erp",
+        "excel"
       ],
       "first_seen": "2026-10-24"
     },
@@ -8175,6 +8254,59 @@
         "stakeholder management",
         "erp",
         "excel"
+      ],
+      "first_seen": "2026-10-24"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/senior-content-specialist-at-lseg-4464867551",
+      "title": "Senior Content Specialist",
+      "company": "LSEG",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 91,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — Change & Transformation (IBM style)",
+      "resume_path": "resumes/IBM_changetrans_Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analysis",
+        "transformation",
+        "process improvement",
+        "workflow automation",
+        "solution design",
+        "implementation",
+        "business requirements",
+        "stakeholder management"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/pmo-tools-and-automation-specialist-at-solventum-4446384317",
+      "title": "PMO Tools and Automation Specialist",
+      "company": "Solventum",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 91,
+      "experience_req": "4+ yrs",
+      "exp_years": 4,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — Change & Transformation (IBM style)",
+      "resume_path": "resumes/IBM_changetrans_Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analysis",
+        "consulting",
+        "transformation",
+        "process improvement",
+        "workflow automation",
+        "pmo",
+        "project coordination",
+        "dashboard"
       ],
       "first_seen": "2026-10-24"
     },
@@ -10083,6 +10215,33 @@
       "emailed": true
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/senior-consultant-business-analyst-at-model-n-4482891342",
+      "title": "Senior Consultant-Business Analyst",
+      "company": "Model N",
+      "location": "Hyderabad, Telangana, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 87,
+      "experience_req": "2+ yrs",
+      "exp_years": 2,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — Change & Transformation (IBM style)",
+      "resume_path": "resumes/IBM_changetrans_Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analyst",
+        "business analysis",
+        "consultant",
+        "implementation",
+        "change management",
+        "erp",
+        "analytics",
+        "stakeholder"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/business-process-expert-plan-to-produce-at-datwyler-group-4475833677",
       "title": "Business Process Expert - Plan to Produce",
       "company": "Datwyler Group",
@@ -11226,6 +11385,33 @@
       "emailed": true
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/mtx-campus-drive-junior-associate-consultant-nriit-guntur-at-mtx-group-4482603024",
+      "title": "MTX Campus Drive - Junior Associate Consultant (NRIIT, Guntur)",
+      "company": "MTX Group",
+      "location": "Hyderabad, Telangana, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 85,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Transformation Manager (EY style)",
+      "resume_path": "resumes/Ajinkya_Kolhe_EY_Business_Transformation_Manager.pdf",
+      "matched": [
+        "consultant",
+        "consulting",
+        "digital transformation",
+        "transformation",
+        "erp",
+        "excel",
+        "sql",
+        "python"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/salesforce-ba-qa-at-coreflex-solutions-inc-4474278076",
       "title": "Salesforce BA - QA",
       "company": "CoreFlex Solutions Inc.",
@@ -12045,6 +12231,33 @@
         "excel"
       ],
       "first_seen": "2026-10-23"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/dev-business-analyst-must-have-erp-exposure-at-infor-4463461051",
+      "title": "Dev Business Analyst ( Must have ERP exposure )",
+      "company": "Infor",
+      "location": "Hyderabad, Telangana, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 83,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — Change & Transformation (IBM style)",
+      "resume_path": "resumes/IBM_changetrans_Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analyst",
+        "business analysis",
+        "digital transformation",
+        "transformation",
+        "solution design",
+        "sop",
+        "erp",
+        "analytics"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
     },
     {
       "url": "https://in.linkedin.com/jobs/view/management-consultant-at-sion-advisors-4473643283",
@@ -13577,6 +13790,33 @@
         "erp"
       ],
       "first_seen": "2026-10-24"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/business-analyst-3-ops-at-oracle-4481031953",
+      "title": "Business Analyst 3-Ops",
+      "company": "Oracle",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 81,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Premium",
+      "target_priority": "",
+      "resume": "Business Analyst — general (IIM Visakhapatnam)",
+      "resume_path": "resumes/Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analyst",
+        "transformation",
+        "process transformation",
+        "solution design",
+        "implementation",
+        "requirements gathering",
+        "business requirements",
+        "mis"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
     },
     {
       "url": "https://in.linkedin.com/jobs/view/strategic-builder-at-griddable-io-4480826945",
@@ -16126,6 +16366,58 @@
       "first_seen": "2026-10-23"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/business-analyst-at-accenture-in-india-4483112136",
+      "title": "Business Analyst",
+      "company": "Accenture in India",
+      "location": "Gurugram, Haryana, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 77,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Premium",
+      "target_priority": "High",
+      "resume": "Business Analyst — Change & Transformation (IBM style)",
+      "resume_path": "resumes/IBM_changetrans_Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analyst",
+        "business analysis",
+        "process mapping",
+        "implementation",
+        "business requirements",
+        "erp",
+        "excel",
+        "stakeholder"
+      ],
+      "first_seen": "2026-10-24"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/sr-business-systems-analyst-at-moody-s-corporation-4482896730",
+      "title": "Sr Business Systems Analyst",
+      "company": "Moody's Corporation",
+      "location": "Gurugram, Haryana, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 77,
+      "experience_req": "5+ yrs",
+      "exp_years": 5,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — Change & Transformation (IBM style)",
+      "resume_path": "resumes/IBM_changetrans_Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analysis",
+        "transformation",
+        "solution design",
+        "implementation",
+        "sap",
+        "excel",
+        "analytics",
+        "stakeholder"
+      ],
+      "first_seen": "2026-10-24"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/continuous-replenishment-system-crs-at-artech-l-l-c-4480217036",
       "title": "Continuous Replenishment System(CRS)",
       "company": "Artech L.L.C.",
@@ -17769,6 +18061,33 @@
       "first_seen": "2026-10-23"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/business-analyst-at-solarsys-innovations-private-ltd-4482385928",
+      "title": "Business Analyst",
+      "company": "SolarSys Innovations Private Ltd",
+      "location": "Trivandrum, Kerala, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 75,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — Change & Transformation (IBM style)",
+      "resume_path": "resumes/IBM_changetrans_Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analyst",
+        "business analysis",
+        "solution design",
+        "requirements gathering",
+        "business requirements",
+        "erp",
+        "excel",
+        "stakeholder"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/developer-application-at-flex-4468109143",
       "title": "Developer, Application",
       "company": "Flex",
@@ -19309,6 +19628,32 @@
       ],
       "first_seen": "2026-10-24",
       "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/consulting-manager-at-cognizant-4472814717",
+      "title": "Consulting Manager",
+      "company": "Cognizant",
+      "location": "Chennai, Tamil Nadu, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 73,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Premium",
+      "target_priority": "",
+      "resume": "Digital Transformation Officer (SCG style)",
+      "resume_path": "resumes/Ajinkya_Kolhe_SCG_Digital_Transformation_Officer.pdf",
+      "matched": [
+        "business analyst",
+        "business analysis",
+        "consulting",
+        "transformation",
+        "solution design",
+        "implementation",
+        "business requirements",
+        "stakeholder management"
+      ],
+      "first_seen": "2026-10-24"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/servicenow-presales-solution-architect-at-fujitsu-4476173972",
@@ -22619,6 +22964,58 @@
       "first_seen": "2026-10-23"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/business-analyst-l4-at-wipro-4482874743",
+      "title": "BUSINESS ANALYST L4",
+      "company": "Wipro",
+      "location": "Pune Division, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 69,
+      "experience_req": "5+ yrs",
+      "exp_years": 5,
+      "tier": "Premium",
+      "target_priority": "",
+      "resume": "Business Analyst — Change & Transformation (IBM style)",
+      "resume_path": "resumes/IBM_changetrans_Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analyst",
+        "consultant",
+        "consulting",
+        "digital transformation",
+        "transformation",
+        "requirements gathering",
+        "presentation",
+        "research"
+      ],
+      "first_seen": "2026-10-24"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/it-data-sr-product-analyst-fp-a-at-infosys-4472549807",
+      "title": "IT&DATA Sr. Product Analyst FP&A",
+      "company": "Infosys",
+      "location": "Hyderabad, Telangana, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 69,
+      "experience_req": "5+ yrs",
+      "exp_years": 5,
+      "tier": "Premium",
+      "target_priority": "",
+      "resume": "Business Analyst — Change & Transformation (IBM style)",
+      "resume_path": "resumes/IBM_changetrans_Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analysis",
+        "implementation",
+        "business requirements",
+        "stakeholder management",
+        "mis",
+        "sap",
+        "stakeholder",
+        "strategy"
+      ],
+      "first_seen": "2026-10-24"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/it-ltsshf-20221133-at-larsen-toubro-4477167585",
       "title": "IT - LTSSHF - 20221133",
       "company": "Larsen & Toubro",
@@ -23391,7 +23788,7 @@
       "company": "PwC India",
       "location": "Pune Division, Maharashtra, India",
       "source": "LinkedIn",
-      "posted": "2026-10-20",
+      "posted": "2026-10-24",
       "score": 67,
       "experience_req": "1+ yrs",
       "exp_years": 1,
@@ -24335,6 +24732,59 @@
         "data analysis"
       ],
       "first_seen": "2026-10-23"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/sap-ewm-functional-consultant-at-gyansys-inc-4481907324",
+      "title": "SAP EWM Functional Consultant",
+      "company": "GyanSys Inc.",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 67,
+      "experience_req": "5+ yrs",
+      "exp_years": 5,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — Change & Transformation (IBM style)",
+      "resume_path": "resumes/IBM_changetrans_Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "consultant",
+        "solution design",
+        "functional consultant",
+        "implementation",
+        "requirements gathering",
+        "sap",
+        "stakeholder",
+        "automation"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/business-analyst-at-intouchcx-4481952965",
+      "title": "Business Analyst",
+      "company": "IntouchCX",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 67,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — Change & Transformation (IBM style)",
+      "resume_path": "resumes/IBM_changetrans_Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analyst",
+        "business analysis",
+        "implementation",
+        "business requirements",
+        "lean six sigma",
+        "excel",
+        "stakeholder",
+        "ai"
+      ],
+      "first_seen": "2026-10-24"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/sr-ba-ii-at-invesco-4475813996",
@@ -26111,6 +26561,110 @@
       "first_seen": "2026-10-23"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/sap-ewm-consultant-at-deloitte-4464584959",
+      "title": "SAP EWM Consultant",
+      "company": "Deloitte",
+      "location": "Pune Division, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 65,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Premium",
+      "target_priority": "High",
+      "resume": "Business Transformation Manager (EY style)",
+      "resume_path": "resumes/Ajinkya_Kolhe_EY_Business_Transformation_Manager.pdf",
+      "matched": [
+        "consultant",
+        "consulting",
+        "digital transformation",
+        "transformation",
+        "implementation",
+        "erp",
+        "sap",
+        "leadership"
+      ],
+      "first_seen": "2026-10-24"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/sap-ewm-consultant-at-deloitte-4464803840",
+      "title": "SAP EWM Consultant",
+      "company": "Deloitte",
+      "location": "Chennai, Tamil Nadu, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 65,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Premium",
+      "target_priority": "High",
+      "resume": "Business Transformation Manager (EY style)",
+      "resume_path": "resumes/Ajinkya_Kolhe_EY_Business_Transformation_Manager.pdf",
+      "matched": [
+        "consultant",
+        "consulting",
+        "digital transformation",
+        "transformation",
+        "implementation",
+        "erp",
+        "sap",
+        "leadership"
+      ],
+      "first_seen": "2026-10-24"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/bc-sector-tmt-bpi-senior-at-ey-4431934889",
+      "title": "BC SECTOR-TMT-BPI-Senior",
+      "company": "EY",
+      "location": "Gurugram, Haryana, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 65,
+      "experience_req": "5+ yrs",
+      "exp_years": 5,
+      "tier": "Premium",
+      "target_priority": "High",
+      "resume": "Business Analyst — Change & Transformation (IBM style)",
+      "resume_path": "resumes/IBM_changetrans_Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analysis",
+        "consultant",
+        "consulting",
+        "implementation",
+        "requirements gathering",
+        "excel",
+        "sql",
+        "analytics"
+      ],
+      "first_seen": "2026-10-24"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/lead-assistant-manager-business-analyst-at-exl-4446729215",
+      "title": "Lead Assistant Manager - Business Analyst",
+      "company": "EXL",
+      "location": "Chennai, Tamil Nadu, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 65,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — general (IIM Visakhapatnam)",
+      "resume_path": "resumes/Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analyst",
+        "consultant",
+        "stakeholder management",
+        "mis",
+        "excel",
+        "mba",
+        "stakeholder",
+        "cross-functional"
+      ],
+      "first_seen": "2026-10-24"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/solution-engineering-aibs-at-microsoft-4467988712",
       "title": "Solution Engineering - AIBS",
       "company": "Microsoft",
@@ -27854,6 +28408,58 @@
       "emailed": true
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/usi-eh27-consulting-ft-bf-profitability-cost-management-consultant-functional-transformation-at-deloitte-4417891577",
+      "title": "USI-EH27-Consulting-FT-BF-Profitability & Cost Management-Consultant, Functional Transformation",
+      "company": "Deloitte",
+      "location": "Hyderabad, Telangana, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 63,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Premium",
+      "target_priority": "High",
+      "resume": "Business Transformation Manager (EY style)",
+      "resume_path": "resumes/Ajinkya_Kolhe_EY_Business_Transformation_Manager.pdf",
+      "matched": [
+        "consultant",
+        "consulting",
+        "transformation",
+        "requirements gathering",
+        "dashboard",
+        "erp",
+        "excel",
+        "leadership"
+      ],
+      "first_seen": "2026-10-24"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/usi-eh27-consulting-ft-bf-drm-edmcs-consultant-functional-transformation-at-deloitte-4418208290",
+      "title": "USI-EH27-Consulting-FT-BF-DRM & EDMCS-Consultant, Functional Transformation",
+      "company": "Deloitte",
+      "location": "Pune Division, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 63,
+      "experience_req": "4+ yrs",
+      "exp_years": 4,
+      "tier": "Premium",
+      "target_priority": "High",
+      "resume": "Business Transformation Manager (EY style)",
+      "resume_path": "resumes/Ajinkya_Kolhe_EY_Business_Transformation_Manager.pdf",
+      "matched": [
+        "consultant",
+        "consulting",
+        "transformation",
+        "implementation",
+        "mis",
+        "erp",
+        "stakeholder",
+        "leadership"
+      ],
+      "first_seen": "2026-10-24"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/apprentice-r-19971-at-dun-bradstreet-4477656484",
       "title": "Apprentice (R-19971)",
       "company": "Dun & Bradstreet",
@@ -29266,7 +29872,7 @@
       "company": "PwC India",
       "location": "Goregaon, Maharashtra, India",
       "source": "LinkedIn",
-      "posted": "2026-10-20",
+      "posted": "2026-10-24",
       "score": 61,
       "experience_req": "not stated",
       "exp_years": null,
@@ -31659,6 +32265,86 @@
       "emailed": true
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/lims-consultant-at-infosys-4472571068",
+      "title": "LIMS Consultant",
+      "company": "Infosys",
+      "location": "Greater Kolkata Area",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 59,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Premium",
+      "target_priority": "",
+      "resume": "Business Analyst — Change & Transformation (IBM style)",
+      "resume_path": "resumes/IBM_changetrans_Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "consultant",
+        "consulting",
+        "solution design",
+        "implementation",
+        "requirements gathering",
+        "erp",
+        "sql",
+        "ai"
+      ],
+      "first_seen": "2026-10-24"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/3847868-executives-at-exl-4446742306",
+      "title": "3847868-Executives",
+      "company": "EXL",
+      "location": "Noida, Uttar Pradesh, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 59,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Digital Transformation Officer (SCG style)",
+      "resume_path": "resumes/Ajinkya_Kolhe_SCG_Digital_Transformation_Officer.pdf",
+      "matched": [
+        "consultant",
+        "consulting",
+        "process digitalization",
+        "business requirements",
+        "standardization",
+        "erp",
+        "excel",
+        "analytics"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/senior-pricing-analyst-asia-pacific-3-at-ntt-data-inc-4434835956",
+      "title": "Senior Pricing Analyst (Asia Pacific)-3",
+      "company": "NTT DATA, Inc.",
+      "location": "Mumbai Metropolitan Region",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 59,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Transformation Manager (EY style)",
+      "resume_path": "resumes/Ajinkya_Kolhe_EY_Business_Transformation_Manager.pdf",
+      "matched": [
+        "consultant",
+        "consulting",
+        "aris",
+        "business case",
+        "erp",
+        "excel",
+        "stakeholder",
+        "cross-functional"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/transformation-success-engineer-devsecops-at-palo-alto-networks-4445896066",
       "title": "Transformation Success Engineer (DevSecops)",
       "company": "Palo Alto Networks",
@@ -33833,6 +34519,33 @@
         "roadmap"
       ],
       "first_seen": "2026-10-23",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/analyst-business-consulting-risk-fs-cns-risk-process-controls-mumbai-at-ey-4473380297",
+      "title": "Analyst - Business Consulting Risk - FS - CNS - Risk - Process & Controls - Mumbai",
+      "company": "EY",
+      "location": "Mumbai, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 57,
+      "experience_req": "0+ yrs",
+      "exp_years": 0,
+      "tier": "Premium",
+      "target_priority": "High",
+      "resume": "Business Transformation Manager (EY style)",
+      "resume_path": "resumes/Ajinkya_Kolhe_EY_Business_Transformation_Manager.pdf",
+      "matched": [
+        "consultant",
+        "consulting",
+        "erp",
+        "excel",
+        "analytics",
+        "mba",
+        "strategy",
+        "ai"
+      ],
+      "first_seen": "2026-10-24",
       "emailed": true
     },
     {
@@ -37000,6 +37713,31 @@
       "first_seen": "2026-10-24"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/jeroboam-group-business-analyst-%E2%80%93-financial-software-solutions-at-the-jeroboam-group-4483108836",
+      "title": "Jeroboam Group |   Business Analyst – Financial Software Solutions",
+      "company": "The Jeroboam Group",
+      "location": "Vijaynagar, Rajasthan, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 53,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Transformation Manager (EY style)",
+      "resume_path": "resumes/Ajinkya_Kolhe_EY_Business_Transformation_Manager.pdf",
+      "matched": [
+        "business analyst",
+        "implementation",
+        "excel",
+        "sql",
+        "stakeholder",
+        "ai"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/sr-solution-sales-ai-platform-at-lexsi-labs-4479306873",
       "title": "Sr Solution Sales - AI Platform",
       "company": "Lexsi Labs",
@@ -38682,6 +39420,59 @@
       ],
       "first_seen": "2026-10-24",
       "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/powerplatform-consultant-at-infosys-4472560380",
+      "title": "PowerPlatform Consultant",
+      "company": "Infosys",
+      "location": "Hyderabad, Telangana, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 51,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Premium",
+      "target_priority": "",
+      "resume": "Business Analyst — Change & Transformation (IBM style)",
+      "resume_path": "resumes/IBM_changetrans_Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "consultant",
+        "consulting",
+        "digital transformation",
+        "transformation",
+        "erp",
+        "research",
+        "ai",
+        "problem solving"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/senior-specialist-technology-partnership-at-workowon-4483100991",
+      "title": "Senior Specialist, Technology Partnership",
+      "company": "Workowon",
+      "location": "Mumbai, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 51,
+      "experience_req": "5+ yrs",
+      "exp_years": 5,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — general (IIM Visakhapatnam)",
+      "resume_path": "resumes/Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analyst",
+        "business analysis",
+        "implementation",
+        "stakeholder management",
+        "program management",
+        "project coordination",
+        "dashboard",
+        "stakeholder"
+      ],
+      "first_seen": "2026-10-24"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/founder-s-office-at-finnovationz-4475604657",
@@ -44309,7 +45100,7 @@
       "company": "PwC India",
       "location": "Mumbai, Maharashtra, India",
       "source": "LinkedIn",
-      "posted": "2026-10-20",
+      "posted": "2026-10-24",
       "score": 45,
       "experience_req": "2+ yrs",
       "exp_years": 2,
@@ -44711,6 +45502,56 @@
         "automation"
       ],
       "first_seen": "2026-10-24"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/oracle-cloud-hcm-technical-consultant-fast-formula-extracts-at-infosys-4481901038",
+      "title": "Oracle Cloud HCM Technical Consultant (Fast Formula & Extracts)",
+      "company": "Infosys",
+      "location": "Bengaluru East, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 45,
+      "experience_req": "2+ yrs",
+      "exp_years": 2,
+      "tier": "Premium",
+      "target_priority": "",
+      "resume": "Business Analyst — Change & Transformation (IBM style)",
+      "resume_path": "resumes/IBM_changetrans_Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "consultant",
+        "consulting",
+        "digital transformation",
+        "transformation",
+        "solution design"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/sap-btp-consultant-at-centotech-services-private-limited-4482617459",
+      "title": "SAP BTP Consultant",
+      "company": "CENTOTECH SERVICES PRIVATE LIMITED",
+      "location": "Ahmadnagar, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 45,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Transformation Manager (EY style)",
+      "resume_path": "resumes/Ajinkya_Kolhe_EY_Business_Transformation_Manager.pdf",
+      "matched": [
+        "consultant",
+        "implementation",
+        "sap",
+        "excel",
+        "stakeholder",
+        "cross-functional",
+        "ai"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
     },
     {
       "url": "https://in.linkedin.com/jobs/view/techno-economic-viability-professional-at-hardicon-ltd-4472520432",
@@ -45977,7 +46818,7 @@
       "company": "PwC India",
       "location": "Bengaluru, Karnataka, India",
       "source": "LinkedIn",
-      "posted": "2026-10-20",
+      "posted": "2026-10-24",
       "score": 43,
       "experience_req": "not stated",
       "exp_years": null,
@@ -47492,28 +48333,6 @@
       "emailed": true
     },
     {
-      "url": "https://in.linkedin.com/jobs/view/sap-ewm-functional-consultant-at-gyansys-inc-4481907324",
-      "title": "SAP EWM Functional Consultant",
-      "company": "GyanSys Inc.",
-      "location": "Bengaluru, Karnataka, India",
-      "source": "LinkedIn",
-      "posted": "2026-10-23",
-      "score": 43,
-      "experience_req": "not stated",
-      "exp_years": null,
-      "tier": "Other",
-      "target_priority": "",
-      "resume": "Digital Transformation Officer (SCG style)",
-      "resume_path": "resumes/Ajinkya_Kolhe_SCG_Digital_Transformation_Officer.pdf",
-      "matched": [
-        "consultant",
-        "functional consultant",
-        "sap"
-      ],
-      "first_seen": "2026-10-24",
-      "emailed": true
-    },
-    {
       "url": "https://in.linkedin.com/jobs/view/solutions-architect-india-at-stripe-4465020155",
       "title": "Solutions Architect (India)",
       "company": "Stripe",
@@ -47671,6 +48490,32 @@
       ],
       "first_seen": "2026-10-22",
       "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/scrum-master-at-synechron-4472802766",
+      "title": "Scrum Master",
+      "company": "Synechron",
+      "location": "Bengaluru East, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 42,
+      "experience_req": "5+ yrs",
+      "exp_years": 5,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Transformation Manager (EY style)",
+      "resume_path": "resumes/Ajinkya_Kolhe_EY_Business_Transformation_Manager.pdf",
+      "matched": [
+        "consultant",
+        "erp",
+        "excel",
+        "sql",
+        "python",
+        "analytics",
+        "presentation",
+        "research"
+      ],
+      "first_seen": "2026-10-24"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/associate-consultant-business-consulting-risk-national-cns-risk-risk-management-mumbai-at-ey-4479372071",
@@ -48048,7 +48893,7 @@
       "company": "PwC India",
       "location": "Bengaluru, Karnataka, India",
       "source": "LinkedIn",
-      "posted": "2026-10-20",
+      "posted": "2026-10-24",
       "score": 41,
       "experience_req": "not stated",
       "exp_years": null,
@@ -48514,7 +49359,7 @@
       "company": "PwC India",
       "location": "Mumbai, Maharashtra, India",
       "source": "LinkedIn",
-      "posted": "2026-10-20",
+      "posted": "2026-10-24",
       "score": 41,
       "experience_req": "not stated",
       "exp_years": null,
@@ -48655,6 +49500,32 @@
         "business analyst"
       ],
       "first_seen": "2026-10-23",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/b2-consultant-ii-at-exl-4446740103",
+      "title": "B2/Consultant II",
+      "company": "EXL",
+      "location": "Ahmedabad, Gujarat, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 41,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — general (IIM Visakhapatnam)",
+      "resume_path": "resumes/Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "consultant",
+        "business requirements",
+        "data analysis",
+        "stakeholder",
+        "presentation",
+        "strategy",
+        "ai"
+      ],
+      "first_seen": "2026-10-24",
       "emailed": true
     },
     {
@@ -50210,6 +51081,28 @@
         "stakeholder",
         "strategy",
         "ai"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/sap-business-analyst-%E2%80%93-operations-sap-ba-%E2%80%93-ops-at-teamware-solutions-4482896537",
+      "title": "SAP Business Analyst – Operations (SAP BA – Ops)",
+      "company": "Teamware Solutions",
+      "location": "Chennai, Tamil Nadu, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 39,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Digital Transformation Officer (SCG style)",
+      "resume_path": "resumes/Ajinkya_Kolhe_SCG_Digital_Transformation_Officer.pdf",
+      "matched": [
+        "business analyst",
+        "sap",
+        "operations"
       ],
       "first_seen": "2026-10-24",
       "emailed": true
@@ -52540,7 +53433,7 @@
       "company": "PwC India",
       "location": "Greater Kolkata Area",
       "source": "LinkedIn",
-      "posted": "2026-10-12",
+      "posted": "2026-10-24",
       "score": 37,
       "experience_req": "1+ yrs",
       "exp_years": 1,
@@ -55200,6 +56093,198 @@
       "emailed": true
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/staff-consultant-at-oracle-4481009366",
+      "title": "Staff Consultant",
+      "company": "Oracle",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Premium",
+      "target_priority": "",
+      "resume": "Business Analyst — general (IIM Visakhapatnam)",
+      "resume_path": "resumes/Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "consultant",
+        "consulting",
+        "mis",
+        "ai",
+        "problem solving"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/techno-functional-consultant-l1-at-wipro-4483179343",
+      "title": "TECHNO FUNCTIONAL CONSULTANT L1",
+      "company": "Wipro",
+      "location": "Hyderabad, Telangana, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Premium",
+      "target_priority": "",
+      "resume": "Business Analyst — general (IIM Visakhapatnam)",
+      "resume_path": "resumes/Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "consultant",
+        "functional consultant"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/techno-functional-consultant-l1-at-wipro-4483178369",
+      "title": "TECHNO FUNCTIONAL CONSULTANT L1",
+      "company": "Wipro",
+      "location": "Hyderabad, Telangana, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Premium",
+      "target_priority": "",
+      "resume": "Business Analyst — general (IIM Visakhapatnam)",
+      "resume_path": "resumes/Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "consultant",
+        "functional consultant"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/implementation-consultant-at-leadsquared-4438255821",
+      "title": "Implementation Consultant",
+      "company": "LeadSquared",
+      "location": "Mumbai, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Established",
+      "target_priority": "",
+      "resume": "Business Analyst — general (IIM Visakhapatnam)",
+      "resume_path": "resumes/Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "consultant",
+        "implementation"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/associate-business-analyst-business-process-service-excellence-business-analyst-at-exl-4446723624",
+      "title": "Associate - Business Analyst-Business Process & Service Excellence -Business Analyst",
+      "company": "EXL",
+      "location": "Noida, Uttar Pradesh, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — general (IIM Visakhapatnam)",
+      "resume_path": "resumes/Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analyst",
+        "excel"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/implementation-consultant-%E2%80%93-client-success-data-at-barometer-technologies-4481046452",
+      "title": "Implementation Consultant – Client Success & Data",
+      "company": "Barometer Technologies",
+      "location": "Mumbai, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — general (IIM Visakhapatnam)",
+      "resume_path": "resumes/Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "consultant",
+        "implementation"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/lead-functional-consultant-admin-services-at-icertis-4466065069",
+      "title": "Lead Functional Consultant, Admin Services",
+      "company": "Icertis",
+      "location": "Pune Division, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — general (IIM Visakhapatnam)",
+      "resume_path": "resumes/Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "consultant",
+        "functional consultant"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/oracle-fusion-payroll-functional-consultant-at-vueverse-4480678608",
+      "title": "Oracle Fusion Payroll - Functional Consultant",
+      "company": "vueverse.",
+      "location": "India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — general (IIM Visakhapatnam)",
+      "resume_path": "resumes/Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "consultant",
+        "functional consultant"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/associate-business-analyst-reporting-mis-reporting-at-exl-4446723620",
+      "title": "Associate - Business Analyst-Reporting-MIS Reporting",
+      "company": "EXL",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — general (IIM Visakhapatnam)",
+      "resume_path": "resumes/Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analyst",
+        "mis"
+      ],
+      "first_seen": "2026-10-24",
+      "emailed": true
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/presales-solutions-architect-at-cloud4c-services-4475424670",
       "title": "Presales Solutions Architect",
       "company": "Cloud4C Services",
@@ -55517,6 +56602,33 @@
         "research"
       ],
       "first_seen": "2026-10-22",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/domain-pre-sales-ap-at-fico-4456325902",
+      "title": "Domain Pre Sales AP",
+      "company": "FICO",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-10-23",
+      "score": 36,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Transformation Manager (EY style)",
+      "resume_path": "resumes/Ajinkya_Kolhe_EY_Business_Transformation_Manager.pdf",
+      "matched": [
+        "digital transformation",
+        "transformation",
+        "business case",
+        "analytics",
+        "stakeholder",
+        "leadership",
+        "presentation",
+        "research"
+      ],
+      "first_seen": "2026-10-24",
       "emailed": true
     },
     {
@@ -56296,6 +57408,28 @@
         "ai"
       ],
       "first_seen": "2026-10-23",
+      "emailed": true
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/senior-business-analyst-%E2%80%93-plan-strategy-ppsd-ai-drafting-at-papigen-4482379322",
+      "title": "Senior Business Analyst – Plan & Strategy (PPSD & AI Drafting)",
+      "company": "Papigen",
+      "location": "India",
+      "source": "LinkedIn",
+      "posted": "2026-10-24",
+      "score": 35,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "target_priority": "",
+      "resume": "Business Analyst — general (IIM Visakhapatnam)",
+      "resume_path": "resumes/Ajinkya_Kolhe_IIM_Visakhapatnam_Resume.pdf",
+      "matched": [
+        "business analyst",
+        "strategy",
+        "ai"
+      ],
+      "first_seen": "2026-10-24",
       "emailed": true
     }
   ]
